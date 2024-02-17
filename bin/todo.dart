@@ -2,7 +2,7 @@ class Todo {
   List<dynamic> list = [];
 
   //method1 Add Todo Item
-  void addItem() {}
+  void addItem(String item) {}
 
   //method2 Remove Todo Item
   void removeItem() {}
