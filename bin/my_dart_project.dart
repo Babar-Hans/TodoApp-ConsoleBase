@@ -1,5 +1,17 @@
-import 'package:my_dart_project/my_dart_project.dart' as my_dart_project;
+import 'dart:io';
+import 'credential.dart';
 
 void main(List<String> arguments) {
-  print('Hello world: ${my_dart_project.calculate()}!');
+  print("========Todo Application Project=========");
+  print("");
+  stdout.write("Do you want to use todo app (y/n) :  ");
+  print("");
+  String char = stdin.readLineSync()!;
+
+  //------------------
+  if (char == "y") {
+    userLoginCredential();
+  } else if (char == "n") {
+    print("nice day!");
+  } else {}
 }
